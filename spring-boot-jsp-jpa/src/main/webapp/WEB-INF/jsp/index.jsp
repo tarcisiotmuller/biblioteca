@@ -7,7 +7,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Welcome to Spring Web MVC project</title>
+        <title>Biblioteca</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <style>
             footer {
@@ -33,9 +33,9 @@
                     <div class="collapse navbar-collapse" id="collapse1">
                         <ul class="nav nav-pills" id="menu">
                             <li><a href="">Projetos</a></li>
-                            <li role="presentation"><a href="<c:url value='/list' />" data-target="#desktop" data-toggle="pill">Cadastro</a></li>
-                            <li role="presentation"><a href="noticias.html" data-target="#desktop" data-toggle="pill">Notícias</a></li>
-                            <li role="presentation"><a href="formulario_contato.html" data-target="#desktop" data-toggle="pill">Contato</a></li>
+                            <li role="presentation"><a href="<c:url value='/livros' />" data-target="#desktop" data-toggle="pill">Livros</a></li>
+                            <li role="presentation"><a href="" data-target="#desktop" data-toggle="pill">Pessoas</a></li>
+                            <li role="presentation"><a href="" data-target="#desktop" data-toggle="pill">Empréstimos</a></li>
                         </ul>
                     </div>
                 </nav>
